@@ -748,6 +748,51 @@
       "title": "global_indicators.4-6-1-title"
     },
     {
+      "path": "13-1-3/data.csv",
+      "name": "13-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Alberta",
+                "Manitoba",
+                "Saskatchewan",
+                "British Columbia",
+                "Ontario",
+                "Quebec",
+                "Nunavut",
+                "Yukon",
+                "Northwest Territories",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.13-1-3-title"
+    },
+    {
       "path": "6-a-1/data.csv",
       "name": "6-a-1",
       "profile": "tabular-data-resource",
@@ -5855,6 +5900,51 @@
       "title": "global_indicators.11-4-1-title"
     },
     {
+      "path": "11-b-2/data.csv",
+      "name": "11-b-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Geography",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Canada",
+                "Prince Edward Island",
+                "Nova Scotia",
+                "New Brunswick",
+                "Newfoundland and Labrador",
+                "Alberta",
+                "Manitoba",
+                "Saskatchewan",
+                "British Columbia",
+                "Ontario",
+                "Quebec",
+                "Nunavut",
+                "Yukon",
+                "Northwest Territories",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.11-b-2-title"
+    },
+    {
       "path": "17-5-1/data.csv",
       "name": "17-5-1",
       "profile": "tabular-data-resource",
@@ -9309,28 +9399,6 @@
       "title": "global_indicators.15-8-1-title"
     },
     {
-      "path": "13-1-3/data.csv",
-      "name": "13-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.13-1-3-title"
-    },
-    {
       "path": "12-6-1/data.csv",
       "name": "12-6-1",
       "profile": "tabular-data-resource",
@@ -10649,28 +10717,6 @@
         ]
       },
       "title": "global_indicators.3-5-1-title"
-    },
-    {
-      "path": "11-b-2/data.csv",
-      "name": "11-b-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "number"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.11-b-2-title"
     },
     {
       "path": "8-7-1/data.csv",
