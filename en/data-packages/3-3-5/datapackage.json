@@ -41,8 +41,20 @@
             "title": "Sex"
           },
           {
+            "name": "Type of disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rabies",
+                "Leprosy",
+                ""
+              ]
+            },
+            "title": "Type of disease"
+          },
+          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

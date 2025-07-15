@@ -5010,8 +5010,19 @@
             }
           },
           {
+            "name": "Type of disease",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Rabies",
+                "Leprosy",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
