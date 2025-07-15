@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Année"
           },
           {
@@ -20,6 +20,20 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Canada",
+                "Île-du-Prince-Édouard",
+                "Nouvelle-Écosse",
+                "Nouveau-Brunswick",
+                "Terre-Neuve-et-Labrador",
+                "Alberta",
+                "Manitoba",
+                "Saskatchewan",
+                "Colombie-Britannique",
+                "Ontario",
+                "Québec",
+                "Nunavut",
+                "Yukon",
+                "Territoires du Nord-Ouest",
                 ""
               ]
             },
@@ -27,7 +41,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Valeur"
           }
         ]
