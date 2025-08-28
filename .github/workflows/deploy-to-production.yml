@@ -49,7 +49,7 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
-        REPOSITORY_NAME: sdggif-data-canada-oddcmi-donnee/canada-gif-production-data
+        REPOSITORY_NAME: Zelheim/test_data_repo
         ACCESS_TOKEN: ${{ secrets.token }}
         BRANCH: gh-pages
         FOLDER: _site
