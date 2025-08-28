@@ -12,32 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "Geography",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Canada",
-                "Prince Edward Island",
-                "Nova Scotia",
-                "New Brunswick",
-                "Newfoundland and Labrador",
-                "Alberta",
-                "Manitoba",
-                "Saskatchewan",
-                "British Columbia",
-                "Ontario",
-                "Quebec",
-                "Nunavut",
-                "Yukon",
-                "Northwest Territories",
-                ""
-              ]
-            },
-            "title": "Geography"
           },
           {
             "name": "Value",

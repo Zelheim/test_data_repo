@@ -15,10 +15,11 @@
             "type": "integer"
           },
           {
-            "name": "Series",
+            "name": "Neglected tropical diseases",
             "type": "string",
             "constraints": {
               "enum": [
+                "Total - Neglected tropical diseases",
                 "Leprosy",
                 "Rabies",
                 ""
@@ -33,24 +34,14 @@
                 "Male",
                 "Female",
                 "Unknown",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Type of disease",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Rabies",
-                "Leprosy",
+                "All",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
